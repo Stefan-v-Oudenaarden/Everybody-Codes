@@ -1,14 +1,12 @@
-﻿namespace Quest_01
+﻿namespace Quest_0000
 {
     public class Part1 : IEverybodyCodesProblem
     {
         public string ProblemNumber => Helpers.GetQuestFromNamespace(this);
         public string PartNumber => Helpers.GetPartFromClass(this);
 
-        public static string ProblemTitle = "The Battle for the Farmlands";
+        public static string ProblemTitle = "???";
         public string ProblemName { get => $"Day {ProblemNumber}: {ProblemTitle}. {Helpers.AddSpacesBeforeDigits(PartNumber)}"; }
-
-        private readonly Dictionary<char, int> _potionCost = new() { { 'A', 0 }, { 'B', 1 }, { 'C', 3 } };
 
         public void Run()
         {
@@ -22,14 +20,7 @@
 
         public void Solve(string input)
         {
-            var potionCount = 0;
-
-            foreach (char c in input)
-            {
-                potionCount += _potionCost[c];
-            }
-
-            Log.Information("Total potions used for encounters is {potionCount}", potionCount);
+            Log.Information("A solution can be found");
         }
 
         public static string ParseInput(string filePath)

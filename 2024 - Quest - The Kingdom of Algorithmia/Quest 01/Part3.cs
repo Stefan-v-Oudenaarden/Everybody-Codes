@@ -4,7 +4,7 @@
     {
         public string ProblemNumber => Helpers.GetQuestFromNamespace(this);
         public string PartNumber => Helpers.GetPartFromClass(this);
-        public string ProblemName { get => $"Day {ProblemNumber}: The Battle for the Farmlands {PartNumber}"; }
+        public string ProblemName { get => $"Day {ProblemNumber}: {Part1.ProblemTitle}. {Helpers.AddSpacesBeforeDigits(PartNumber)}"; }
 
         private readonly Dictionary<char, int> _potionCost = new() { { 'A', 0 }, { 'B', 1 }, { 'C', 3 }, { 'D', 5 }, { 'x', 0 } };
 

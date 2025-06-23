@@ -16,6 +16,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Quest 02\Part1.input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Quest 02\Part1.test-input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Quest 02\Part2.input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Quest 02\Part2.test-input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Quest 02\Part3.input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Quest 02\Part3.test-input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Quest 01\Part3.input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

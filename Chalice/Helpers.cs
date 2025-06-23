@@ -264,5 +264,15 @@ namespace EverybodyCodes
 
             return false;
         }
+
+        public static string AddSpacesBeforeDigits(this string input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                return input;
+            }
+
+            return Regex.Replace(input, @"(?<=\D)\d", " $0");
+        }
     }
 }
