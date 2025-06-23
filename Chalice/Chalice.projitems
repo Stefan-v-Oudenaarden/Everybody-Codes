@@ -13,8 +13,14 @@
     <Compile Include="$(MSBuildThisFileDirectory)GlobalIUsings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IEverybodyCodesProblem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Template\Part0.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Template\" />
+    <None Include="$(MSBuildThisFileDirectory)Template\Part0.input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Template\Part0.test-input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

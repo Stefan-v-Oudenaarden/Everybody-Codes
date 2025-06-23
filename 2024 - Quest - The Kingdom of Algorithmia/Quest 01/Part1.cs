@@ -4,7 +4,7 @@
     {
         public string ProblemNumber => Helpers.GetQuestFromNamespace(this);
         public string PartNumber => Helpers.GetPartFromClass(this);
-        public string ProblemName { get => $"Day {ProblemNumber}: Historian Hysteria. {PartNumber}"; }
+        public string ProblemName { get => $"Day {ProblemNumber}: The Battle for the Farmlands. {PartNumber}"; }
 
         private readonly Dictionary<char, int> _potionCost = new() { { 'A', 0 }, { 'B', 1 }, { 'C', 3 } };
 

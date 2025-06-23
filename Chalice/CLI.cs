@@ -164,6 +164,7 @@ namespace EverybodyCodes
             var problems = AppDomain.CurrentDomain.GetAssemblies()
                             .SelectMany(a => a.GetTypes())
                             .Where(t => problemInterface.IsAssignableFrom(t) && t.Name != "IEverybodyCodesProblem")
+                            .Where(p => !p.FullName.Contains("0000"))
                             .OrderBy(p => p.FullName);
 
             return [.. problems];

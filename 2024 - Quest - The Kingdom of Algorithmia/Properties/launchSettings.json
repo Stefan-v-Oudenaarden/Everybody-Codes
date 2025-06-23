@@ -7,17 +7,17 @@
       "commandName": "WSL2",
       "distributionName": ""
     },
-    "runall": {
-      "commandName": "Project",
-      "commandLineArgs": "runall"
-    },
-    "run last example": {
+    "Last Solution --Example": {
       "commandName": "Project",
       "commandLineArgs": "runlast --example"
     },
-    "run last": {
+    "Last Solution": {
       "commandName": "Project",
       "commandLineArgs": "runlast"
+    },
+    "Run All Solutions": {
+      "commandName": "Project",
+      "commandLineArgs": "runall"
     }
   }
 }
