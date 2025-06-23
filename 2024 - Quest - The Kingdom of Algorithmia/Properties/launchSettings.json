@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "2024 - Quest - The Kingdom of Algorithmia": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "runall": {
+      "commandName": "Project",
+      "commandLineArgs": "runall"
+    },
+    "run last example": {
+      "commandName": "Project",
+      "commandLineArgs": "runlast --example"
+    },
+    "run last": {
+      "commandName": "Project",
+      "commandLineArgs": "runlast"
+    }
+  }
+}

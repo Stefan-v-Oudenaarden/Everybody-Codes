@@ -1,0 +1,1 @@
+﻿return CLI.Process(args);
