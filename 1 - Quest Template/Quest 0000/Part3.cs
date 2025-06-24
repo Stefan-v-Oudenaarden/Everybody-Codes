@@ -23,7 +23,7 @@
 
         public static string ParseInput(string filePath)
         {
-            return File.ReadAllText(filePath);
+            return File.ReadAllText(filePath).NormalizeLineEndings();
         }
     }
 }
