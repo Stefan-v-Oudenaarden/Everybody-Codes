@@ -30,7 +30,6 @@ namespace Quest_02
                 foreach (var rune in input.runes)
                 {
                     markedSentence = ReplaceIgnoreCase(markedSentence, rune, rune.ToLower());
-                    //Log.Information("{rune} in {sentence}", rune, markedSentence);
                     markedSentence = ReplaceIgnoreCase(markedSentence.Reverse(), rune, rune.ToLower());
                     markedSentence = markedSentence.Reverse();
                 }
